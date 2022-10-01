@@ -66,7 +66,7 @@ jobs:
           # your assets to GitHub
           files-primary: AsguhoClient-1.0.0.mrpack
           github-token: ${{ secrets.GITHUBAPI_TOKEN }}
-          game-versions: ${{ steps.gameversions.outputs.xxx }}
+          github-tag: ${{ steps.gameversions.outputs.xxx }}
         
       # Runs a set of commands using the runners shell
       #- name: Run a multi-line script
