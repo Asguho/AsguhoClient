@@ -31,7 +31,6 @@ jobs:
         with:
           path: AsguhoClient-1.0.0.mrpack
        
-      - name: getting info for publishing 
       - id: gameversions
         run: |
           chmod u+x versions.pl
