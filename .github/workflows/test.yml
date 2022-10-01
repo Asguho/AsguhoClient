@@ -21,7 +21,9 @@ jobs:
         run: packwiz init --author asguho --name AsguhoClient --modloader fabric --fabric-latest -l --version 1.0.0
         
       - name: downloading mods 
-        run: ./modinstaller.pl
+        run:  |
+          chmod u+x modinstaller.pl
+          ./modinstaller.pl
         
       - name: export a .mrpack 
         run: packwiz mr export
@@ -32,6 +34,7 @@ jobs:
           path: AsguhoClient-1.0.0.mrpack
        
       - id: gameversions
+      - name: getting info for publishing 
         run: |
           chmod u+x versions.pl
           ./versions.pl zz
