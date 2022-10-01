@@ -1,5 +1,12 @@
 #!/usr/bin/perl
 use strict;
 
-print "::set-output name=$@[1]::1.6.5";
+open FILE "pack.toml" || die "cant find pack.toml";
+my $file=join('',<FILE>);
+close FILE;
 
+if ($file=~/minecraft = "([^"]+)"/) {
+    my $mcversion = $1; 
+}
+
+print "::set-output name=zz::$mcversion";
