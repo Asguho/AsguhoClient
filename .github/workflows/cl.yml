@@ -23,15 +23,20 @@ jobs:
         run: go install github.com/packwiz/packwiz@latest
         
       - name: init a packwiz 
-        run: packwiz init --author asguho --name AsguhoClient --modloader fabric --fabric-latest -l --version 1.0.0
+        run: |
+          cd .minecraft
+          packwiz init --author asguho --name AsguhoClient --modloader fabric --fabric-latest -l --version 1.0.0
         
       - name: downloading mods 
         run:  |
-          chmod u+x ../modinstaller.pl
+          chmod u+x modinstaller.pl
+          cd .minecraft
           ../modinstaller.pl
         
       - name: export a .mrpack 
-        run: packwiz mr export
+        run: |
+          cd .minecraft
+          packwiz mr export
 
       - name: export a .zid 
         run: packwiz cf export
