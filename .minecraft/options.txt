@@ -1,0 +1,12 @@
+autoJump:false
+autoSuggestions:true
+realmsNotifications:false
+bobView:false
+darkMojangStudiosBackground:true
+gamma:1
+simulationDistance:6
+tutorialStep:none
+skipMultiplayerWarning:true
+skipRealms32bitWarning:true
+joinedFirstServer:true
+hideBundleTutorial:true
