@@ -52,6 +52,7 @@ jobs:
             
       - id: gameversions
         run: |
+          chmod u+x versions.pl
           ./versions.pl
           echo "::set-output name=xxx::1.4.5"
           echo "::set-output name=yy::1.4.5"
