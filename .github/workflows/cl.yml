@@ -14,6 +14,11 @@ jobs:
           check-latest: true
       - uses: shogo82148/actions-setup-perl@v1
       
+      - name: create and move to .minecraft
+        run: |
+          mkdir .minecraft
+          cd .minecraft
+      
       - name: install packwiz
         run: go install github.com/packwiz/packwiz@latest
         
@@ -22,8 +27,8 @@ jobs:
         
       - name: downloading mods 
         run:  |
-          chmod u+x modinstaller.pl
-          ./modinstaller.pl
+          chmod u+x ../modinstaller.pl
+          ../modinstaller.pl
         
       - name: export a .mrpack 
         run: packwiz mr export
@@ -39,8 +44,8 @@ jobs:
       - name: getting info for publishing   
         id: gameversions
         run: |
-          chmod u+x versions.pl
-          ./versions.pl zz
+          chmod u+x ../versions.pl
+          ../versions.pl zz
         
       - uses: Kir-Antipov/mc-publish@v3.2
         with:
