@@ -11,4 +11,4 @@ if ($file=~/minecraft = "([^"]+)"/) {
     $mcversion = $1; 
 }
 
-print "::set-output name=$@[0]::$mcversion";
+print "::set-output name=$ARGV[0]::$mcversion";
