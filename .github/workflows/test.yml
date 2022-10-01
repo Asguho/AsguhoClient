@@ -27,11 +27,15 @@ jobs:
         
       - name: export a .mrpack 
         run: packwiz mr export
-        
+
+      - name: export a .zid 
+        run: packwiz cf export
+
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.0
         with:
-          path: AsguhoClient-1.0.0.mrpack
+          path: AsguhoClient-1.0.0.zip
+          
       - name: getting info for publishing   
         id: gameversions
         run: |
