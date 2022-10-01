@@ -4,6 +4,8 @@ realmsNotifications:false
 bobView:false
 darkMojangStudiosBackground:true
 gamma:1
+fov:0.5
+guiScale:5
 simulationDistance:6
 tutorialStep:none
 skipMultiplayerWarning:true
