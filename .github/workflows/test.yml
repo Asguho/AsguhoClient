@@ -53,9 +53,7 @@ jobs:
       - id: gameversions
         run: |
           chmod u+x versions.pl
-          ./versions.pl
-          #echo "::set-output name=qq::1.4.5"
-          #echo "::set-output name=yy::1.4.5"
+          ./versions.pl zz
         
       - uses: Kir-Antipov/mc-publish@v3.2
         with:
@@ -74,7 +72,6 @@ jobs:
           files-primary: AsguhoClient-1.0.0.mrpack
           github-token: ${{ secrets.GITHUBAPI_TOKEN }}
           github-tag: ${{ steps.gameversions.outputs.zz }}
-          name: ${{ steps.gameversions.outputs.bb }}
         
       # Runs a set of commands using the runners shell
       #- name: Run a multi-line script
