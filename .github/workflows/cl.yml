@@ -14,11 +14,6 @@ jobs:
           check-latest: true
       - uses: shogo82148/actions-setup-perl@v1
       
-      - name: create and move to .minecraft
-        run: |
-          mkdir .minecraft
-          cd .minecraft
-      
       - name: install packwiz
         run: go install github.com/packwiz/packwiz@latest
         
