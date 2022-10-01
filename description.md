@@ -1,5 +1,5 @@
 # AsguhoClient
-This modpacks main focus is to be a **simple** and really **optimized** client with the tools you need to build awesome contraptions, farms and extraordinary looking builds.
+This modpack's main focus is to be a **simple** and really **optimized** client with the tools you need to build awesome contraptions, farms and extraordinary looking builds.
 ## performance
 This pack is highly optimized thanks to these mods:
 - Sodium
@@ -23,7 +23,9 @@ This modpack includes most of Masas mods, which is essential to all technical mi
 - Tweakeroo
 - MaLib
 ### Mods for designing builds
+These mods make designing builds and testing farms quick and easy.
 - WorldEdit
 - Carpet
 ## Inventory enhancing
+There is not much to say, I just can't live without Mouse Wheelies clientside middle-click sorting.
 - Mouse Wheelie
