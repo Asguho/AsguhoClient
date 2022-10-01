@@ -54,8 +54,8 @@ jobs:
         run: |
           chmod u+x versions.pl
           ./versions.pl
-          echo "::set-output name=qq::1.4.5"
-          echo "::set-output name=yy::1.4.5"
+          #echo "::set-output name=qq::1.4.5"
+          #echo "::set-output name=yy::1.4.5"
         
       - uses: Kir-Antipov/mc-publish@v3.2
         with:
