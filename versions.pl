@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 use strict;
 
-open FILE "pack.toml" || die "cant find pack.toml";
+open FILE, '<', "pack.toml" || die $!;
 my $file=join('',<FILE>);
 close FILE;
 
