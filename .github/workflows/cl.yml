@@ -60,7 +60,25 @@ jobs:
         run: |
           chmod u+x getinfo.pl
           ./getinfo.pl mcversion
-        
+
+      - name: getting modpackversion   
+        id: modpackversion
+        run: |
+          chmod u+x getinfo.pl
+          ./getinfo.pl modpackversion ${{ steps.previousrelease.outputs.release }}
+
+      - name: getting isItNew   
+        id: isItNew
+        run: |
+          chmod u+x getinfo.pl
+          ./getinfo.pl isItNew 
+
+     - name: printing previous my info
+        run: |
+          echo ${{ steps.mcversion.outputs.mcversion }}
+          echo ${{ steps.modpackversion.outputs.modpackversion }} 
+          echo ${{ steps.isItNew.outputs.isItNew }} 
+
       - uses: Kir-Antipov/mc-publish@v3.2
         with:
           files-primary: .minecraft/AsguhoClient-1.0.0.mrpack        
