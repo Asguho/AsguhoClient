@@ -53,6 +53,7 @@ jobs:
           regex: true
           file: "AsguhoClient-.*\\.mrpack"
           token: ${{ secrets.GITHUBAPI_TOKEN }}
+          target: AsguhoClient-1.0.0.mrpack
           
       - name: printing previous release info
         run: |
