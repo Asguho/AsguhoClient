@@ -32,7 +32,7 @@ sub isItNew(){
 
     my $file2;
     if (-e 'AsguhoClient-1.0.0.mrpackAsguhoClient-1.0.0.mrpack') {
-        open FILE, '<', "AsguhoClient-1.0.0.mrpack" || die $!;
+        open FILE, '<', "AsguhoClient-1.0.0.mrpackAsguhoClient-1.0.0.mrpack" || die $!;
             $file2=join('',<FILE>);
         close FILE;
     } else {
