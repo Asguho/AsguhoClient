@@ -56,7 +56,7 @@ jobs:
           echo ${{ steps.previousrelease.outputs.release }}
           echo ${{ steps.previousrelease.outputs.id }}
 
-      - name: getting info for publishing   
+      - name: getting mcversion   
         id: mcversion
         run: |
           chmod u+x getinfo.pl
@@ -73,4 +73,4 @@ jobs:
           #curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           
           github-token: ${{ secrets.GITHUBAPI_TOKEN }}
-          github-tag: ${{ steps.info.outputs.mcversion }}
+          github-tag: ${{ steps.mcversion.outputs.mcversion }}
