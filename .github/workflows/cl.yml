@@ -95,7 +95,7 @@ jobs:
         if: ${{ steps.isitnew.outputs.isitnew }}
         with:
           name: AsguhoClient-mc${{ steps.mcversion.outputs.mcversion }}-${{ steps.modpackversion.outputs.modpackversion }}
-          version: ${{ steps.modpackversion.outputs.modpackversion }}
+          version: mc${{ steps.mcversion.outputs.mcversion }}-${{ steps.modpackversion.outputs.modpackversion }}
           game-versions: ${{ steps.mcversion.outputs.mcversion }}
           loaders: fabric 
           version-type: release
@@ -110,4 +110,4 @@ jobs:
           github-files-primary: .minecraft/AsguhoClient-1.0.0.mrpack
           github-files-secondary: .minecraft/AsguhoClient-1.0.0.zip
           github-token: ${{ secrets.GITHUBAPI_TOKEN }}
-          #github-tag: ${{ steps.modpackversion.outputs.modpackversion }} 
+          github-tag: ${{ steps.modpackversion.outputs.modpackversion }} 
