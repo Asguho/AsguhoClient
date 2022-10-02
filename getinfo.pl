@@ -32,15 +32,15 @@ sub isItNew(){
 }
 
 if($ARGV[0] eq 'isitnew'){
-    print "::set-output name=$ARGV[0]::"+isItNew();
+    print "::set-output name=$ARGV[0]::".isItNew();
 }
 
 if($ARGV[0] eq 'modpackversion'){
-    print "::set-output name=$ARGV[0]::"+getModPackVersion();
+    print "::set-output name=$ARGV[0]::".getModPackVersion();
 }
 
 if($ARGV[0] eq 'mcversion'){
-    print "::set-output name=$ARGV[0]::"+getMCVersion();
+    print "::set-output name=$ARGV[0]::".getMCVersion();
 }
 
 
