@@ -20,18 +20,18 @@ sub getModPackVersion(){
 
 
 sub isItNew(){
-    
+    my $file1
     if (-e '.minecraft/AsguhoClient-1.0.0.mrpack') {
         open FILE, '<', ".minecraft/AsguhoClient-1.0.0.mrpack" || die $!;
-            my $file1=join('',<FILE>);
+            $file1=join('',<FILE>);
         close FILE;
     } else {
         print ".minecraft/AsguhoClient-1.0.0.mrpack does not exist!\n";
     }
-
+    my $file2
     if (-e 'AsguhoClient-1.0.0.mrpack') {
         open FILE, '<', "AsguhoClient-1.0.0.mrpack" || die $!;
-            my $file2=join('',<FILE>);
+            $file2=join('',<FILE>);
         close FILE;
     } else {
         print "AsguhoClient-1.0.0.mrpack does not exist!\n";
