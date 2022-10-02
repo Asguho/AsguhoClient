@@ -44,8 +44,8 @@ jobs:
           path: .minecraft/AsguhoClient-1.0.0.zip
 
 
-      - name: getting info from previous release
-        id: previousrelease
+      #- name: getting info from previous release
+      - id: previousrelease
         uses: pozetroninc/github-action-get-latest-release@master
         with:
           owner: Asguho
