@@ -86,8 +86,8 @@ jobs:
         uses: actions/upload-artifact@v3.1.0
         with:
           path: |
-          .minecraft/AsguhoClient-1.0.0.mrpack
-          AsguhoClient-1.0.0.mrpackAsguhoClient-1.0.0.mrpack
+            .minecraft/AsguhoClient-1.0.0.mrpack
+            AsguhoClient-1.0.0.mrpackAsguhoClient-1.0.0.mrpack
 
 
 
