@@ -90,4 +90,4 @@ jobs:
           #curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           
           github-token: ${{ secrets.GITHUBAPI_TOKEN }}
-          github-tag: 1.0.3
+          github-tag: ${{ steps.isitnew.outputs.isitnew }} 
