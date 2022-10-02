@@ -23,7 +23,13 @@ sub isItNew(){
     open FILE, '<', "AsguhoClient-1.0.0.mrpack" || die $!;
         my $file2=join('',<FILE>);
     close FILE;
-    return !compare_text($file1, $file2)
+    
+    #compare_text returns 0 if They're equal
+    if(compare_text($file1, $file2)){
+        return 0;
+    } else {
+        return 1;
+    }
 }
 
 if($ARGV[0] == 'isitnew'){
