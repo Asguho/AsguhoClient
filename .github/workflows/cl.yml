@@ -67,17 +67,17 @@ jobs:
           chmod u+x getinfo.pl
           ./getinfo.pl modpackversion ${{ steps.previousrelease.outputs.release }}
 
-      - name: getting isItNew   
-        id: isItNew
+      - name: getting isitnew   
+        id: isitnew
         run: |
           chmod u+x getinfo.pl
-          ./getinfo.pl isItNew 
+          ./getinfo.pl isitnew 
 
       - name: printing previous my info
         run: |
           echo ${{ steps.mcversion.outputs.mcversion }}
           echo ${{ steps.modpackversion.outputs.modpackversion }} 
-          echo ${{ steps.isItNew.outputs.isItNew }} 
+          echo ${{ steps.isitnew.outputs.isitnew }} 
 
       - uses: Kir-Antipov/mc-publish@v3.2
         with:
