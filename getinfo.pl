@@ -11,7 +11,7 @@ sub getMCVersion(){
     }
 }
 sub getModPackVersion(){
-    my $previousversion = ARGV[1];
+    my $previousversion = $ARGV[1];
 }
 
 
