@@ -38,10 +38,6 @@ jobs:
           cd .minecraft
           packwiz cf export
 
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v3.1.0
-        with:
-          path: .minecraft/AsguhoClient-1.0.0.zip
 
 
       - name: getting info from previous release
@@ -78,6 +74,13 @@ jobs:
           echo ${{ steps.mcversion.outputs.mcversion }}
           echo ${{ steps.modpackversion.outputs.modpackversion }} 
           echo ${{ steps.isitnew.outputs.isitnew }} 
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          path: .minecraft/AsguhoClient-1.0.0.zip
+
+
 
       - uses: Kir-Antipov/mc-publish@v3.2
         with:
