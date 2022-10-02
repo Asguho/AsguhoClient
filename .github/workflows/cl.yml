@@ -100,6 +100,7 @@ jobs:
           loaders: fabric 
           version-type: release
           
+          modrinth-files-primary: .minecraft/AsguhoClient-1.0.0.mrpack
           modrinth-id: 8OejNW7c
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           
