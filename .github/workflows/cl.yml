@@ -60,7 +60,7 @@ jobs:
         id: info
         run: |
           chmod u+x getinfo.pl
-          getinfo.pl mcversion
+          ./getinfo.pl 
         
       - uses: Kir-Antipov/mc-publish@v3.2
         with:

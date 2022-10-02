@@ -19,15 +19,10 @@ sub isItNew(){
     
 }
 
-if($ARGV[0] == 'isitnew'){
-    print "::set-output name=$ARGV[0]::"+isItNew();
-}
+print "::set-output name=isitnew::"+isItNew();
 
-if($ARGV[0] == 'modpackversion'){
-    print "::set-output name=$ARGV[0]::"+getModPackVersion();
-}
+print "::set-output name=modpackversion::"+getModPackVersion();
 
-if($ARGV[0] == 'mcversion'){
-    print "::set-output name=$ARGV[0]::"+getMCVersion();
-}
+print "::set-output name=mcversion::"+getMCVersion();
+
 
