@@ -93,4 +93,4 @@ jobs:
           #curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           
           github-token: ${{ secrets.GITHUBAPI_TOKEN }}
-          github-tag: ${{ steps.isitnew.outputs.isitnew }} 
+          github-tag: ${{ steps.modpackversion.outputs.modpackversion }} 
