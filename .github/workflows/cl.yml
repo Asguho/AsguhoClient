@@ -100,8 +100,8 @@ jobs:
           loaders: fabric 
           version-type: release
           
-          #modrinth-id: AANobbMI
-          #modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-id: 8OejNW7c
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           
           #curseforge-id: 394468
           #curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
