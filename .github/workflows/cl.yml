@@ -84,7 +84,7 @@ jobs:
 
       - uses: Kir-Antipov/mc-publish@v3.2
         with:
-          name: AsguhoClient
+          name: AsguhoClient+${{ steps.mcversion.outputs.mcversion }}
           version: ${{ steps.modpackversion.outputs.modpackversion }}
           game-versions: ${{ steps.mcversion.outputs.mcversion }}
           loaders: fabric 
