@@ -57,10 +57,10 @@ jobs:
           echo ${{ steps.previousrelease.outputs.id }}
 
       - name: getting info for publishing   
-        id: info
+        id: mcversion
         run: |
           chmod u+x getinfo.pl
-          ./getinfo.pl 
+          ./getinfo.pl mcversion
         
       - uses: Kir-Antipov/mc-publish@v3.2
         with:
