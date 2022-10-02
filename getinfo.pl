@@ -31,7 +31,7 @@ sub isItNew(){
     }
 
     my $file2;
-    if (-e 'AsguhoClient-1.0.0.mrpack') {
+    if (-e 'AsguhoClient-1.0.0.mrpackAsguhoClient-1.0.0.mrpack') {
         open FILE, '<', "AsguhoClient-1.0.0.mrpack" || die $!;
             $file2=join('',<FILE>);
         close FILE;
@@ -39,7 +39,7 @@ sub isItNew(){
         print "AsguhoClient-1.0.0.mrpack does not exist!\n";
     }
 
-    return($file1 eq $file2);
+    return($file1 eq $file2 && -e '.minecraft/AsguhoClient-1.0.0.mrpack' && -e 'AsguhoClient-1.0.0.mrpackAsguhoClient-1.0.0.mrpack');
 }
 
 if($ARGV[0] eq 'isitnew'){
