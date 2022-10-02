@@ -77,9 +77,6 @@ jobs:
         run: |
           chmod u+x getinfo.pl
           ./getinfo.pl isitnew 
-          ls -al
-          cd .minecraft
-          ls -al
 
       - name: printing previous my info
         run: |
