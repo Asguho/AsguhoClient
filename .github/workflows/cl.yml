@@ -44,17 +44,17 @@ jobs:
           path: .minecraft/AsguhoClient-1.0.0.zip
 
 
-      #- name: getting info from previous release
-      - id: previousrelease
+      - name: getting info from previous release
+        id: previousrelease
         uses: pozetroninc/github-action-get-latest-release@master
         with:
           owner: Asguho
           repo: AsguhoClient
 
-      #- name: printing previous release info
-      #  runs: |
-      #    echo ${{ steps.previousrelease.outputs.release }}
-      #    echo ${{ steps.previousrelease.outputs.id }}
+      - name: printing previous release info
+        run: |
+          echo ${{ steps.previousrelease.outputs.release }}
+          echo ${{ steps.previousrelease.outputs.id }}
 
       - name: getting info for publishing   
         id: gameversions
