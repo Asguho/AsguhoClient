@@ -38,8 +38,8 @@ sub isItNew(){
     } else {
         print "AsguhoClient-1.0.0.mrpack does not exist!\n";
     }
-
-    if($file1 eq $file2 && -e '.minecraft/AsguhoClient-1.0.0.mrpack' && -e 'AsguhoClient-1.0.0.mrpackAsguhoClient-1.0.0.mrpack'){
+# && -e '.minecraft/AsguhoClient-1.0.0.mrpack' && -e 'AsguhoClient-1.0.0.mrpackAsguhoClient-1.0.0.mrpack'
+    if($file1 eq $file2){
         return 'true';
     }else {
         return 'false';
