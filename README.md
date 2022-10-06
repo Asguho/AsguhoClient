@@ -1,5 +1,5 @@
 # AsguhoClient
-This modpack's main focus is to be a **simple** and really **optimized** client with the tools you need to build awesome contraptions, farms and extraordinary looking builds.
+This modpack's main focus is to be a **simple** and really **optimized** client with the tools you need to build awesome contraptions, farms and extraordinary looking builds. 
 ## performance
 This pack is highly optimized thanks to these mods:
 - Sodium
