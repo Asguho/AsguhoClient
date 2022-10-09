@@ -113,4 +113,4 @@ jobs:
           github-files-primary: .minecraft/AsguhoClient-1.0.0.mrpack
           github-files-secondary: .minecraft/AsguhoClient-1.0.0.zip
           github-token: ${{ secrets.GITHUBAPI_TOKEN }}
-          github-tag: 2.1
+          github-tag: ${{ steps.modpackversion.outputs.modpackversion }}
