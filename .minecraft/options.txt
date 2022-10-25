@@ -11,6 +11,7 @@ tutorialStep:none
 skipMultiplayerWarning:true
 skipRealms32bitWarning:true
 joinedFirstServer:true
+resourcePacks:["vanilla","Fabric Mods","file/VanillaTweaks-Base.zip"]
 hideBundleTutorial:true
 soundCategory_master:0.5
 soundCategory_music:0.0
@@ -22,28 +23,3 @@ soundCategory_neutral:0.5
 soundCategory_player:0.5
 soundCategory_ambient:0.0
 soundCategory_voice:0.5
-key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
-key_gui.xaero_instant_waypoint:key.keyboard.unknown
-key_gui.xaero_toggle_slime:key.keyboard.unknown
-key_gui.xaero_toggle_grid:key.keyboard.unknown
-key_gui.xaero_toggle_waypoints:key.keyboard.unknown
-key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
-key_gui.xaero_toggle_map:key.keyboard.unknown
-key_gui.xaero_enlarge_map:key.keyboard.unknown
-key_gui.xaero_waypoints_key:key.keyboard.unknown
-key_gui.xaero_zoom_in:key.keyboard.unknown
-key_gui.xaero_zoom_out:key.keyboard.unknown
-key_gui.xaero_new_waypoint:key.keyboard.b
-key_gui.xaero_display_all_sets:key.keyboard.unknown
-key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
-key_gui.xaero_toggle_entity_radar:key.keyboard.unknown
-key_gui.xaero_reverse_entity_radar:key.keyboard.unknown
-key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown
-key_gui.xaero_toggle_pac_players:key.keyboard.unknown
-key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
-key_gui.xaero_minimap_settings:key.keyboard.unknown
-key_gui.xaero_open_map:key.keyboard.m
-key_gui.xaero_open_settings:key.keyboard.unknown
-key_gui.xaero_map_zoom_in:key.keyboard.unknown
-key_gui.xaero_map_zoom_out:key.keyboard.unknown
-key_gui.xaero_quick_confirm:key.keyboard.right.shift

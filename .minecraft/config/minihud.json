@@ -1,8 +1,10 @@
 {
-    "mainRenderingToggle": {
-        "enabled": false,
-        "hotkey": {
-        "keys": "H"
+    "Generic": {
+        "mainRenderingToggle": {
+            "enabled": false,
+            "hotkey": {
+            "keys": "H"
+            }
         }
     }
 }

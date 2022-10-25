@@ -26,6 +26,7 @@ This modpack includes most of Masas mods, which is essential to all technical mi
 - MiniHud (```H``` to toggle)
 - Tweakeroo (```X+C``` to open config - ```C``` for freecam)
 - Itemscroller (```I+C``` to open config)
+- TellMe
 ### Mods for designing builds
 These mods make designing builds and testing farms quick and easy.
 
