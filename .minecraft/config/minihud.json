@@ -1,0 +1,8 @@
+{
+    "mainRenderingToggle": {
+        "enabled": false,
+        "hotkey": {
+        "keys": "H"
+        }
+    }
+}

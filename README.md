@@ -22,10 +22,10 @@ This pack is highly optimized thanks to these mods:
 ### Masas mods
 This modpack includes most of Masas mods, which is essential to all technical minecraft players.
 
-- Litematica (```M``` to open menu)
+- Litematica (```N``` to open menu)
 - MiniHud (```H``` to toggle)
 - Tweakeroo (```X+C``` to open config - ```C``` for freecam)
-- Itemscroller
+- Itemscroller (```I+C``` to open config)
 ### Mods for designing builds
 These mods make designing builds and testing farms quick and easy.
 
@@ -37,8 +37,8 @@ There is not much to say, I just can't live without Mouse Wheelies clientside mi
 - Mouse Wheelie
 ## 🗺️ Navigation enhancing
 
-- Xaero's Minimap (Fair-play Edition)
-- Xaero's World Map
+- Xaero's Minimap (Fair-play Edition) (```B``` to create waypoint)
+- Xaero's World Map (```M``` to open map)
 ## ➕ Ekstras
 
 - No Chat Reports
