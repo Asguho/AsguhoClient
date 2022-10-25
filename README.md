@@ -1,6 +1,6 @@
 # AsguhoClient
 This modpack's main focus is to be a **simple** and really **optimized** client with the tools you need to build awesome contraptions, farms and extraordinary looking builds.
-## Performance
+## 🔥Performance
 This pack is highly optimized thanks to these mods:
 
 - Lithium
@@ -14,7 +14,7 @@ This pack is highly optimized thanks to these mods:
 - Krypton
 - CCME
 - VMP
-## Technical
+## 🔧Technical
 ### Masas mods
 This modpack includes most of Masas mods, which is essential to all technical minecraft players.
 
@@ -27,9 +27,9 @@ These mods make designing builds and testing farms quick and easy.
 
 - WorldEdit
 - Carpet
-## Inventory enhancing
+## 🎒 Inventory enhancing
 There is not much to say, I just can't live without Mouse Wheelies clientside middle-click sorting.
 
 - Mouse Wheelie
-## Resourcepack
+## 🎨 Resourcepack
 vanillatweaks.net/share#ZN4rKG.
