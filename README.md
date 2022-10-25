@@ -1,8 +1,8 @@
 # AsguhoClient
 This modpack's main focus is to be a **simple** and really **optimized** client with the tools you need to build awesome contraptions, farms and extraordinary looking builds.
 
-<img src="https://github.com/Asguho/AsguhoClient/blob/main/docs/schematic.png" align="right" alt="" style="width:49%;"/>
-<img src="https://github.com/Asguho/AsguhoClient/blob/main/docs/sodiumFPS.png" alt="" style="width:49%;"/>
+<img src="https://github.com/Asguho/AsguhoClient/blob/main/docs/schematic.png" align="right" alt="" style="width:45%;"/>
+<img src="https://github.com/Asguho/AsguhoClient/blob/main/docs/sodiumFPS.png" alt="" style="width:45%;"/>
 
 ## 🔥Performance
 This pack is highly optimized thanks to these mods:
