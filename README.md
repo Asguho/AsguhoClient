@@ -49,4 +49,4 @@ There is not much to say, I just can't live without Mouse Wheelies clientside mi
 - YetAnotherConfigLib
 ## 🎨 Resourcepack
 
-- [BaseVanillatweaks](vanillatweaks.net/share#ZN4rKG)
+- [BaseVanillatweaks](https://vanillatweaks.net/share/#ZN4rKG)
