@@ -55,3 +55,7 @@ There is not much to say, I just can't live without Mouse Wheelies clientside mi
 ## 🎨 Resourcepack
 
 - [BaseVanillatweaks](https://vanillatweaks.net/share/#ZN4rKG)
+
+## Credit
+Thanks to all the amazing mod creators.
+The image of the FPS with and without sodium is one from the sodium project, and you are not guaranteed to get the same fps with this project.
