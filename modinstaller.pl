@@ -1,13 +1,18 @@
 #!/usr/bin/perl
 use strict;
-my @modrinthMods = ('lithium', 'c2me-fabric', 'starlight', 'lazydfu', 'debugify', 'smoothboot-fabric', 'sodium', 'ebe', 'memoryleakfix','krypton','vmp-fabric','ferrite-core','exordium','fastload','ImmediatelyFast', 'modmenu', 'mouse-wheelie','no-chat-reports','multiconnect');
-my @curseforgeMods = ('fabric-api','litematica', 'minihud', 'tellme', 'tweakeroo','item-scroller', 'worldedit', 'carpet','xaeros-world-map','xaeros-minimap-fair-play-edition','tellme');
+my @modrinthMods = ('sodium','exordium');
+my @curseforgeMods = ('litematica', 'minihud', 'tellme', 'tweakeroo','item-scroller', 'worldedit', 'carpet','xaeros-world-map','xaeros-minimap-fair-play-edition','tellme','c2me-fabric','debugify','enhanced-block-entities','fastload','ferritecore-fabric','ImmediatelyFast',);
+my @curseforgeModsNeededReason = ('fabric-api','c2me-fabric','debugify','enhanced-block-entities','fastload','ferritecore-fabric','ImmediatelyFast','krypton','lazydfu','lithium','starlight','smoothboot-fabric','memoryleakfix','vmp-fabric', 'modmenu', 'mouse-wheelie','no-chat-reports','multiconnect','yosbr');
 
 for(@modrinthMods){
 	system("packwiz mr install $_ -y");
 }
 
 for(@curseforgeMods){
+	system("packwiz cf install $_ -y");
+}
+
+for(@curseforgeModsNeededReason){
 	system("packwiz cf install $_ -y");
 }
 
