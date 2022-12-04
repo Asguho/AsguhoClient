@@ -47,14 +47,15 @@ sub isItNew(){
 }
 
 if($ARGV[0] eq 'isitnew'){
-    print '"{'+$ARGV[0]+'}={'+isItNew()+'}" >> $GITHUB_OUTPUT';
+    print "::set-output name=$ARGV[0]::".isItNew();
 }
 
 if($ARGV[0] eq 'modpackversion'){
-    print '"{'+$ARGV[0]+'}={'+getModPackVersion()+'}" >> $GITHUB_OUTPUT';
+    print "::set-output name=$ARGV[0]::".getModPackVersion();
 }
 
 if($ARGV[0] eq 'mcversion'){
-    print '"{'+$ARGV[0]+'}={'+getMCVersion()+'}" >> $GITHUB_OUTPUT';
+    print "::set-output name=$ARGV[0]::".getMCVersion();
 }
+
 
