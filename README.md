@@ -5,7 +5,7 @@ This modpack's main focus is to be a **simple** and really **optimized** client 
 <img src="https://github.com/Asguho/AsguhoClient/blob/main/docs/sodiumFPS.png" alt="" style="width:45%;"/>
 
 ## 🔥Performance
-This pack is highly optimized thanks to these mods: 
+This pack is highly optimized thanks to these mods:  
 
 - Sodium
 - Lithium
