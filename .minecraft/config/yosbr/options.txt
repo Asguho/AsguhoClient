@@ -1,11 +1,13 @@
 autoJump:false
 autoSuggestions:true
+entityShadows:false
 realmsNotifications:false
 bobView:false
 darkMojangStudiosBackground:true
 gamma:1
 fov:0.5
 guiScale:5
+screenEffectScale:0.0
 simulationDistance:6
 tutorialStep:none
 skipMultiplayerWarning:true
@@ -13,6 +15,7 @@ skipRealms32bitWarning:true
 joinedFirstServer:true
 maxFps:260
 enableVsync:false
+graphicsMode:0
 resourcePacks:["vanilla","Fabric Mods","file/VanillaTweaks-Base.zip"]
 hideBundleTutorial:true
 soundCategory_master:0.5
