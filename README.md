@@ -55,7 +55,7 @@ There is not much to say, I just can't live without Mouse Wheelies clientside mi
 - Xaero's Minimap (Fair-play Edition) (`B` to create waypoint)
 - Xaero's World Map (`M` to open map)
 
-## :x: Error handling
+## ❌ Error handling
 
 - Mixin Conflict Helper
 - MixinTrace
