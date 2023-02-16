@@ -1,10 +1,16 @@
 {
   "TweakHotkeys": {
     "tweakFreeCamera": {
-      "keys": "C"
+      "keys": "V"
     },
     "tweakGammaOverride": {
       "keys": "G"
+    },
+    "zoomActivate": {
+      "keys": "C"
     }
+  },
+  "TweakToggles": {
+    "tweakZoom": true
   }
 }

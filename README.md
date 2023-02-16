@@ -31,9 +31,9 @@ This pack is highly optimized thanks to these mods:
 
 This modpack includes most of Masas mods, which is essential to all technical minecraft players.
 
-- Litematica (`N` to open menu)
-- MiniHud (`H` to toggle)
-- Tweakeroo (`X+C` to open config - `G` for gamma override (aka fullbright) - `C` for freecam)
+- Litematica (`N` to open menu - `N+C` to open config)
+- MiniHud (`H` to toggle - `H+C` to open config)
+- Tweakeroo (`X+C` to open config - `C` for zoom -`G` for gamma override (aka fullbright) - `V` for freecam)
 - Itemscroller (`I+C` to open config)
 - TellMe
 
