@@ -5,7 +5,9 @@
     },
     "tweakGammaOverride": {
       "keys": "G"
-    },
+    }
+  },
+  "GenericHotkeys": {
     "zoomActivate": {
       "keys": "C"
     }
