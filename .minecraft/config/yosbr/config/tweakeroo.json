@@ -1,7 +1,10 @@
 {
-    "TweakHotkeys": {
-        "tweakFreeCamera": {
-            "keys": "C"
-        }
+  "TweakHotkeys": {
+    "tweakFreeCamera": {
+      "keys": "C"
+    },
+    "tweakGammaOverride": {
+      "keys": "G"
     }
+  }
 }
