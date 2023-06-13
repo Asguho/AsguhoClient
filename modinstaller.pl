@@ -7,8 +7,8 @@ for(@modrinthMods){
 	system("packwiz mr install $_ -y");
 }
 
-for(@curseforgeMods){
-	system("packwiz cf install $_ -y");
-}
+#for(@curseforgeMods){
+#	system("packwiz cf install $_ -y");
+#}
 
 
