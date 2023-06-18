@@ -16,6 +16,7 @@ joinedFirstServer:true
 maxFps:260
 enableVsync:false
 graphicsMode:0
+onboardAccessibility:false
 resourcePacks:["vanilla","Fabric Mods","file/VanillaTweaks-Base.zip"]
 hideBundleTutorial:true
 soundCategory_master:0.5
