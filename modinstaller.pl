@@ -9,13 +9,13 @@ my @performance = (
     "Enhanced Block Entities",
     "Indium",
     "Fabric API",
-    "Concurrent Chunk Management Engine (Fabric)",
+    "Concurrent Chunk Management Engine",
     "Lithium",
     "ModernFix",
     "No Chat Reports",
     "FerriteCore",
     "ThreadTweak",
-    "Very Many Players (Fabric)"
+    "Very Many Players"
 );
 my @modrinthMods = ('carpet', 'modmenu','reeses-sodium-options', 'mouse-wheelie','no-chat-reports', 'mixintrace', 'mixin-conflict-helper', 'xaeros-minimap', 'xaeros-world-map', 'yosbr', 'multiconnect', 'sodium-extra', 'why-am-i-on-fire');
 my @curseforgeMods = ('litematica', 'minihud', 'tellme', 'tweakeroo','item-scroller', 'worldedit');
