@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 use strict;
-my @performance =(
+my @performance = (
     "More Culling",
     "ImmediatelyFast",
     "Cloth Config API",
@@ -16,7 +16,7 @@ my @performance =(
     "FerriteCore",
     "ThreadTweak",
     "Very Many Players (Fabric)"
-)
+);
 my @modrinthMods = ('carpet', 'modmenu','reeses-sodium-options', 'mouse-wheelie','no-chat-reports', 'mixintrace', 'mixin-conflict-helper', 'xaeros-minimap', 'xaeros-world-map', 'yosbr', 'multiconnect', 'sodium-extra', 'why-am-i-on-fire');
 my @curseforgeMods = ('litematica', 'minihud', 'tellme', 'tweakeroo','item-scroller', 'worldedit');
 ##'notenoughcrashes', 
