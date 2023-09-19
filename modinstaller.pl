@@ -5,6 +5,13 @@ my @curseforgeMods = ('litematica', 'minihud', 'tellme', 'tweakeroo','item-scrol
 
 ##'notenoughcrashes', 
 
+#let elements = document.getElementsByClassName("project-title");
+#let names = [];
+#for (let name of elements) {
+#    names.push(name.innerText)
+#}
+#names
+
 for(@modrinthMods){
 	system("packwiz mr install $_ -y");
 }
