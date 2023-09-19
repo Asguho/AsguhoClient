@@ -19,7 +19,6 @@ my @performance =(
 )
 my @modrinthMods = ('carpet', 'modmenu','reeses-sodium-options', 'mouse-wheelie','no-chat-reports', 'mixintrace', 'mixin-conflict-helper', 'xaeros-minimap', 'xaeros-world-map', 'yosbr', 'multiconnect', 'sodium-extra', 'why-am-i-on-fire');
 my @curseforgeMods = ('litematica', 'minihud', 'tellme', 'tweakeroo','item-scroller', 'worldedit');
-push(@modrinthMods, @performance)
 ##'notenoughcrashes', 
 
 #let elements = document.getElementsByClassName("project-title");
@@ -29,7 +28,7 @@ push(@modrinthMods, @performance)
 #}
 #names
 
-for(@modrinthMods){
+for((@modrinthMods, @performance)){
 	system("packwiz mr install $_ -y");
 }
 
