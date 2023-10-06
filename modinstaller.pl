@@ -6,7 +6,7 @@ my @performance = (
     "Cloth Config API",
     "Sodium",
     "Entity Culling",
-    "Enhanced Block Entities",
+    "ebe",
     "Indium",
     "Fabric API",
     "Concurrent Chunk Management Engine",
