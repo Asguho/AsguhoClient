@@ -61,7 +61,7 @@ There is not much to say, I just can't live without Mouse Wheelies clientside mi
 - MixinTrace
 - Not Enough Crashes
 
-## ➕ Ekstras
+## ➕ Extras
 
 - No Chat Reports
 
