@@ -92,7 +92,7 @@ jobs:
             .minecraft/AsguhoClient-1.0.0.mrpack
             AsguhoClient-1.0.0.mrpackAsguhoClient-1.0.0.mrpack
 
-      - uses: Kir-Antipov/mc-publish@v3.2
+      - uses: Kir-Antipov/mc-publish@v3.3
         if: ${{ steps.isitnew.outputs.isitnew=='true' }}
         with:
           name: AsguhoClient-mc${{ steps.mcversion.outputs.mcversion }}-${{ steps.modpackversion.outputs.modpackversion }}
