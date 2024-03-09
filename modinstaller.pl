@@ -17,8 +17,8 @@ my @performance = (
     "ThreadTweak",
     "Very Many Players"
 );
-my @modrinthMods = ('carpet', 'modmenu','reeses-sodium-options', 'mouse-wheelie','no-chat-reports', 'mixintrace', 'mixin-conflict-helper', 'xaeros-minimap', 'xaeros-world-map', 'yosbr', 'multiconnect', 'sodium-extra', 'why-am-i-on-fire');
-my @curseforgeMods = ('litematica', 'minihud', 'tellme', 'tweakeroo','item-scroller', 'worldedit');
+my @modrinthMods = ('axiom', 'carpet', 'modmenu','reeses-sodium-options', 'mouse-wheelie','no-chat-reports', 'mixintrace', 'mixin-conflict-helper', 'xaeros-minimap', 'xaeros-world-map', 'yosbr', 'multiconnect', 'sodium-extra', 'why-am-i-on-fire');
+my @curseforgeMods = ('litematica', 'minihud', 'tellme', 'tweakeroo','item-scroller');
 ##'notenoughcrashes', 
 
 #let elements = document.getElementsByClassName("project-title");
