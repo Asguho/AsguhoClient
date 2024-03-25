@@ -16,7 +16,7 @@ joinedFirstServer:true
 maxFps:260
 enableVsync:false
 graphicsMode:0
-resourcePacks:["vanilla","Fabric Mods","file/VanillaTweaks-Base.zip"]
+resourcePacks:["vanilla","Fabric Mods","file/VanillaTweaks-Base.zip", "file/SoulfulAncientDebris.zip"]
 hideBundleTutorial:true
 onboardAccessibility:false
 soundCategory_master:0.5
