@@ -21,7 +21,8 @@ jobs:
 
       - name: init a packwiz
         run: |
-          cd .minecraft
+          mkdir test
+          cd test
           packwiz init --author asguho --name AsguhoClient --modloader fabric --fabric-latest -l --version 1.0.0
 
       - name: downloading mods
